@@ -1,0 +1,707 @@
+<!doctype html>
+<html class="scroll-smooth scroll-pt-20">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/css/output.css" rel="stylesheet"/>
+    <title>Gerry Satria Halim - Portfolio</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar bg-base-100 sticky top-0 z-50 shadow-sm flex justify-center">
+      <div class="container w-full max-w-7xl flex items-center justify-between px-4">
+        
+        <div class="navbar-start w-auto">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-1 p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="#home-section" class="text-base">Home</a></li>
+              <li><a href="#about-section" class="text-base">About Me</a></li>
+              <li><a href="#experience-section" class="text-base">Experience</a></li>
+              <li><a href="#project-section" class="text-base">Project</a></li>
+              <li><a href="#skills-section" class="text-base">Skills</a></li>
+              <li><a href="#contact-section" class="text-base">Contact</a></li>
+            </ul>
+          </div>
+          <a href="#home-section" class="btn btn-ghost px-2 text-xl font-bold tracking-tighter">GerrySatriaH</a>
+        </div>
+        
+        <div class="navbar-end hidden lg:flex w-auto">
+          <ul class="menu menu-horizontal px-1 gap-1">
+            <li><a href="#home-section" class="font-semibold text-base hover:text-primary transition-colors">Home</a></li>
+            <li><a href="#about-section" class="font-semibold text-base hover:text-primary transition-colors">About Me</a></li>
+            <li><a href="#experience-section" class="font-semibold text-base hover:text-primary transition-colors">Experience</a></li>
+            <li><a href="#project-section" class="font-semibold text-base hover:text-primary transition-colors">Project</a></li>
+            <li><a href="#skills-section" class="font-semibold text-base hover:text-primary transition-colors">Skills</a></li>
+            <li><a href="#contact-section" class="font-semibold text-base hover:text-primary transition-colors">Contact</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+
+    <section id="home-section" class="min-h-[90vh] flex items-center justify-center bg-linear-to-b from-base-100 to-base-200 px-4">
+      <div class="container max-w-6xl w-full flex flex-col-reverse lg:flex-row items-center justify-between gap-12 py-20">
+        <div class="home-content text-center lg:text-left flex-1">
+          <h2 class="text-xl lg:text-2xl font-medium opacity-80">Hi, I am</h2> 
+          <h1 class="text-4xl lg:text-7xl font-extrabold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent py-2">
+            Gerry Satria Halim
+          </h1>
+          <p class="text-lg lg:text-2xl mt-4 mb-8 font-semibold text-secondary">
+            .NET Developer & Mobile Developer Enthusiast
+          </p>
+          <div class="flex flex-wrap justify-center lg:justify-start gap-6 mb-10">
+            <a href="https://github.com/GerrysatriaH" class="flex items-center gap-2 hover:text-primary transition-all scale-100 hover:scale-105">
+              <box-icon name='github' type='logo' color='currentColor'></box-icon>
+              <span class="font-medium">Github</span>
+            </a>
+            <a href="https://www.linkedin.com/in/gerry-satria-halim/" class="flex items-center gap-2 hover:text-primary transition-all scale-100 hover:scale-105">
+              <box-icon name='linkedin-square' type='logo' color='currentColor'></box-icon>
+              <span class="font-medium">LinkedIn</span>
+            </a>
+          </div>
+          <a href="src/pdf/CV_GERRY SATRIA HALIM_rev_1.pdf" class="btn btn-primary btn-lg shadow-lg">Download CV</a>
+        </div>
+        <div class="relative group">
+          <div class="absolute -inset-1 bg-linear-to-r from-primary to-accent rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+          <div class="relative bg-base-100 rounded-full p-2">
+            <img src="src/images/GerrySatriaHalim.png" alt="foto_gerry" class="w-64 lg:w-80 h-64 lg:h-80 object-cover rounded-full shadow-2xl">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-section" class="py-20 px-4 bg-base-100 flex justify-center">
+      <div class="container w-full max-w-4xl">
+        <h2 class="text-center text-3xl lg:text-4xl font-extrabold mb-8 text-base-content">
+          About Me
+        </h2>
+        <div class="text-center md:text-justify">
+          <p class="text-base lg:text-lg text-base-content/80 leading-relaxed mb-6">
+            I am an Informatics Engineering student with experience in web, mobile, and desktop application development. I have hands-on experience developing systems using <span class="font-semibold text-primary">ASP.NET, Android (Kotlin), and Visual Basic .NET</span> through industrial internships and certified programs.
+          </p>
+          <p class="text-base lg:text-lg text-base-content/80 leading-relaxed">
+            I have a proven ability to support the digitalization of business and operational processes, especially in manufacturing environments. I am passionate about learning new technologies and solving real-world problems through code.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience-section" class="py-20 px-4 bg-base-200">
+      <div class="container mx-auto w-full max-w-4xl">
+        
+        <h2 class="text-center text-3xl lg:text-4xl font-extrabold mb-12 text-base-content">
+          Work Experience
+        </h2>
+        
+        <div class="relative border-l-2 border-primary/30 ml-3 lg:ml-0 space-y-10 pl-6 lg:pl-8">
+          
+          <div class="relative group">
+            <span class="absolute -left-8.25 lg:-left-10.25 top-1.5 h-4 w-4 rounded-full border-2 border-primary bg-base-200 group-hover:bg-primary transition-colors duration-300"></span>
+            
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-1 gap-2">
+              <h3 class="text-xl font-bold text-primary">Quality System – IT Intern</h3>
+              <span class="text-sm font-semibold opacity-80 bg-base-300 px-3 py-1 rounded-full w-max">Oct 2025 – Apr 2026</span>
+            </div>
+            <h4 class="text-lg font-semibold text-base-content/90 mb-3">PT Panasonic Manufacturing Indonesia</h4>
+            <p class="text-base-content/80 text-base leading-relaxed">
+              Developed a web-based system using ASP.NET to support the digitalization of service part data management.
+            </p>
+          </div>
+
+          <div class="relative group">
+            <span class="absolute -left-8.25 lg:-left-10.25 top-1.5 h-4 w-4 rounded-full border-2 border-primary bg-base-200 group-hover:bg-primary transition-colors duration-300"></span>
+            
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-1 gap-2">
+              <h3 class="text-xl font-bold text-primary">Production Engineering – App Developer Intern</h3>
+              <span class="text-sm font-semibold opacity-80 bg-base-300 px-3 py-1 rounded-full w-max">Sep 2024 – Jan 2025</span>
+            </div>
+            <h4 class="text-lg font-semibold text-base-content/90 mb-3">PT Panasonic Manufacturing Indonesia</h4>
+            <ul class="text-base-content/80 text-base leading-relaxed list-disc list-outside ml-4 space-y-1">
+              <li>Developed web-based applications using the ASP.NET framework to support production monitoring activities.</li>
+              <li>Built and maintained desktop applications using Visual Basic .NET to support digitalization of operational processes.</li>
+            </ul>
+          </div>
+
+          <div class="relative group">
+            <span class="absolute -left-8.25 lg:-left-10.25 top-1.5 h-4 w-4 rounded-full border-2 border-primary bg-base-200 group-hover:bg-primary transition-colors duration-300"></span>
+            
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-1 gap-2">
+              <h3 class="text-xl font-bold text-primary">Mobile Development Cohort – Android</h3>
+              <span class="text-sm font-semibold opacity-80 bg-base-300 px-3 py-1 rounded-full w-max">Aug 2023 – Jan 2024</span>
+            </div>
+            <h4 class="text-lg font-semibold text-base-content/90 mb-3">Bangkit Academy (Google, Tokopedia, Gojek, & Traveloka)</h4>
+            <ul class="text-base-content/80 text-base leading-relaxed list-disc list-outside ml-4 space-y-1">
+              <li>Developed Android applications using Kotlin and Jetpack Compose, from fundamental to advanced levels.</li>
+              <li>Strengthened professional communication and English proficiency through intensive coursework.</li>
+              <li>Built a mobile application integrated with cloud services and a machine learning model.</li>
+              <li>Graduated with distinction (Top 10%) and ranked among the top 1000 performing students in English courses.</li>
+            </ul>
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="education-section" class="py-20 px-4 bg-base-100">
+      <div class="container mx-auto w-full max-w-5xl">
+        
+        <div class="flex flex-col lg:flex-row gap-12">
+          
+          <div class="flex-1">
+            <h2 class="text-2xl font-extrabold mb-8 text-base-content flex items-center gap-3">
+              <box-icon name='graduation' type='solid' color='currentColor' size='md' class="text-primary"></box-icon>
+              Education
+            </h2>
+            
+            <div class="card bg-base-200 shadow-sm border-l-4 border-primary rounded-none sm:rounded-r-2xl hover:shadow-md transition-shadow duration-300">
+              <div class="card-body p-6">
+                <h3 class="card-title text-xl font-bold text-primary mb-1">Politeknik Negeri Jakarta</h3>
+                <h4 class="text-base font-semibold text-base-content/90 leading-snug">Bachelor of Applied Science - BASc, Informatic Engineering</h4>
+                
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-end mt-4 text-sm text-base-content/70">
+                  <span class="bg-base-300 px-3 py-1 rounded-full w-max font-medium mb-2 sm:mb-0">2021 – 2025</span>
+                  <span class="font-bold text-base-content px-3 py-1 bg-primary/10 rounded-lg w-max">GPA: 3.9</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-1">
+            <h2 class="text-2xl font-extrabold mb-8 text-base-content flex items-center gap-3">
+              <box-icon name='certification' type='solid' color='currentColor' size='md' class="text-primary"></box-icon>
+              Licenses & Certifications
+            </h2>
+            
+            <div class="space-y-6">
+              
+              <div class="card bg-base-200 shadow-sm border-l-4 border-primary rounded-none sm:rounded-r-2xl hover:shadow-md transition-shadow duration-300">
+                <div class="card-body p-6">
+                  <h3 class="card-title text-lg font-bold text-primary mb-1">Web Developer</h3>
+                  <h4 class="text-sm font-semibold text-base-content/90">Badan Nasional Sertifikasi Profesi (BNSP)</h4>
+                  <div class="flex items-center gap-2 mt-3 text-xs font-medium text-base-content/60">
+                    <box-icon name='calendar' size='xs' color='currentColor'></box-icon>
+                    <span>Issued Jul 2025 · Expires Jul 2028</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card bg-base-200 shadow-sm border-l-4 border-primary rounded-none sm:rounded-r-2xl hover:shadow-md transition-shadow duration-300">
+                <div class="card-body p-6">
+                  <h3 class="card-title text-lg font-bold text-primary mb-1">Dev Certification for Android (DCA)</h3>
+                  <h4 class="text-sm font-semibold text-base-content/90">dev.cert by dev.id</h4>
+                  
+                  <div class="flex items-center gap-2 mt-3 mb-1 text-xs font-medium text-base-content/60">
+                    <box-icon name='calendar' size='xs' color='currentColor'></box-icon>
+                    <span>Issued Jan 2025 · Expires Jan 2028</span>
+                  </div>
+                  <div class="text-xs font-mono text-base-content/50 bg-base-300 px-2 py-1 rounded w-max mt-1">
+                    Credential ID: XPV7R6PVZ8
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+
+    <Section id="project-section" class="py-20 px-4 lg:px-10 bg-base-200">
+      <div class="container mx-auto w-full max-w-7xl">
+        <h2 class="text-center text-3xl lg:text-4xl font-extrabold mb-12 text-base-content">My Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+
+          <!-- project 1 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/pos_toko_baju.jpg"
+                alt="POS toko baju image"
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">POS Toko Baju</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi Point of Sales Toko Baju yang berbasis Web untuk mengelola transaksi penjualan produk pada toko baju.              </p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Web</span>
+                <span class="badge badge-outline badge-sm">Bootstrap</span>
+                <span class="badge badge-outline badge-sm">CodeIgniter</span>
+                <span class="badge badge-outline badge-sm">MySQL</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="https://github.com/GerrysatriaH/Point_Of_Sale_Toko_Baju" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 2 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/Furnimart.jpg"
+                alt="furnimart image" 
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">Furnimart</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi E-commerce berbasis web untuk membeli atau menjual produk perabotan rumah.</p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Web</span>
+                <span class="badge badge-outline badge-sm">HTML</span>
+                <span class="badge badge-outline badge-sm">CSS</span>
+                <span class="badge badge-outline badge-sm">PHP</span>
+                <span class="badge badge-outline badge-sm">MySQL</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="https://github.com/GerrysatriaH/Furnimart" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 3 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/pmb.png"
+                alt="pmb image" 
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">PMB Online</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi Web untuk melakukan pendaftaran mahasiswa baru secara online.</p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Web</span>
+                <span class="badge badge-outline badge-sm">HTML</span>
+                <span class="badge badge-outline badge-sm">Bootstrap</span>
+                <span class="badge badge-outline badge-sm">Laravel</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="#" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 4 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/laracrud.jpg"
+                alt="laracrud image" 
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">LaraCRUD</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi Web yang menerapkan operasi CRUD sederhana untuk produk makanan dan minuman.</p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Web</span>
+                <span class="badge badge-outline badge-sm">Bootstrap</span>
+                <span class="badge badge-outline badge-sm">Laravel</span>
+                <span class="badge badge-outline badge-sm">MySQL</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="https://github.com/GerrysatriaH/CRUD_Laravel" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 5 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/planetary_web.jpg"
+                alt="planetary web image" 
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">Planetary Web</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi web yang menyediakan informasi seputar tata surya.</p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Web</span>
+                <span class="badge badge-outline badge-sm">HTML</span>
+                <span class="badge badge-outline badge-sm">Bootstrap</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="https://github.com/GerrysatriaH/PlanetaryWeb" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 6 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/jobchat.png"
+                alt="jobchat image" 
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">JobChat App</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi Chatbot berbasis Android untuk mendapatkan rekomendasi pekerjaan berdasarkan keahlian dan preferensi pengguna</p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Mobile</span>
+                <span class="badge badge-outline badge-sm">XML</span>
+                <span class="badge badge-outline badge-sm">Kotlin</span>
+                <span class="badge badge-outline badge-sm">Python</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="https://github.com/GerrysatriaH/JobChatApp" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 7 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/fitfans.png"
+                alt="fitfans image" 
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">Fitfans</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi mobile yang memungkinkan pengguna untuk mengidentifikasi alat olahraga melalui camera.</p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Mobile</span>
+                <span class="badge badge-outline badge-sm">XML</span>
+                <span class="badge badge-outline badge-sm">Kotlin</span>
+                <span class="badge badge-outline badge-sm">Python</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="https://github.com/Capstone-CH2-PS196/FitFans" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 8 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/foodfinder.png"
+                alt="foodfinder image" 
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">FoodFinder</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi mobile yang memungkinkan pengguna mencari makanan atau minuman Indonesia berdasarkan preferensi nutrisi pengguna.</p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Mobile</span>
+                <span class="badge badge-outline badge-sm">XML</span>
+                <span class="badge badge-outline badge-sm">Kotlin</span>
+                <span class="badge badge-outline badge-sm">TensorFlow Lite</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="https://github.com/AIoTech-TIK-PNJ-2024/FoodFinder" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 9 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/cinelist.png"
+                alt="cinelist image" 
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">Cinelist App</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi Mobile yang menampilkan daftar film. Pengguna dapat menambahkan daftar watchlist mereka pada aplikasi ini.</p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Mobile</span>
+                <span class="badge badge-outline badge-sm">Jetpack Compose</span>
+                <span class="badge badge-outline badge-sm">Kotlin</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="https://github.com/GerrysatriaH/CineList_App" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 10 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/github_user.png"
+                alt="github user image" 
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">Github User App</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi mobile yang menampilkan semua data pengguna github beserta dengan pengikut akunnya.</p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Mobile</span>
+                <span class="badge badge-outline badge-sm">XML</span>
+                <span class="badge badge-outline badge-sm">Kotlin</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="https://github.com/GerrysatriaH/Github_User_Project" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 11 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/story_app.png"
+                alt="story app image" 
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">Story App</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi Mobile yang digunakan untuk berbagi cerita antar pengguna di berbagai wilayah.</p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Mobile</span>
+                <span class="badge badge-outline badge-sm">XML</span>
+                <span class="badge badge-outline badge-sm">Kotlin</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="https://github.com/GerrysatriaH/Story_App" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 12 -->
+          <div class="card bg-base-100 w-full max-w-sm shadow-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+            <figure class="px-4 pt-4">
+              <img
+                src="src/images/newsper.png"
+                alt="newsper image" 
+                class="rounded-xl w-full aspect-video object-cover"/>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-xl font-bold">Newsper App</h2>
+              <p class="text-sm lg:text-base text-base-content/80 line-clamp-3">Aplikasi yang menampilkan daftar berita yang diambil dari berbagai sumber beserta dengan isi dari beritanya.</p>
+              <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                <span class="badge badge-primary badge-sm">Mobile</span>
+                <span class="badge badge-outline badge-sm">XML</span>
+                <span class="badge badge-outline badge-sm">Kotlin</span>
+              </div>
+              <div class="card-actions justify-end mt-auto">
+                <a href="https://github.com/GerrysatriaH/Newsper" class="btn btn-primary btn-sm">See Code</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </Section>
+
+   <section id="skills-section" class="py-20 px-4 bg-base-200">
+      <div class="container mx-auto w-full max-w-7xl">
+        <h2 class="text-center text-3xl lg:text-4xl font-extrabold mb-12 text-base-content">
+          My Skills
+        </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="card bg-base-100 shadow-xl border border-base-200">
+            <div class="card-body">
+              <h3 class="card-title text-xl font-bold text-primary mb-4 border-b border-base-200 pb-2">Web Development</h3>
+              <div class="flex flex-wrap gap-4 lg:gap-6 justify-center sm:justify-start">
+                
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/bootstrap.png" alt="Bootstrap" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-primary transition-colors">Bootstrap</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/tailwind.png" alt="Tailwind CSS" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-primary transition-colors">Tailwind</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/php.png" alt="PHP" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-primary transition-colors">PHP</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/codeigniter.png" alt="CodeIgniter" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-primary transition-colors">CodeIgniter</span>
+                </div>
+                
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/laravel.png" alt="Laravel" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-primary transition-colors">Laravel</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-primary/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/aspnet.png" alt="ASP.NET" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-primary transition-colors">ASP.NET</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 shadow-xl border border-base-200">
+            <div class="card-body">
+              <h3 class="card-title text-xl font-bold text-secondary mb-4 border-b border-base-200 pb-2">Mobile Dev (Android)</h3>
+              <div class="flex flex-wrap gap-4 lg:gap-6 justify-center sm:justify-start">
+                
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-secondary/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/kotlin.png" alt="Kotlin" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-secondary transition-colors">Kotlin</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-secondary/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/xml.png" alt="XML" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-secondary transition-colors">XML</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-secondary/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/jetpack compose icon.png" alt="Jetpack Compose" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-secondary transition-colors">Compose</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 shadow-xl border border-base-200">
+            <div class="card-body">
+              <h3 class="card-title text-xl font-bold text-accent mb-4 border-b border-base-200 pb-2">Database</h3>
+              <div class="flex flex-wrap gap-4 lg:gap-6 justify-center sm:justify-start">
+                
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-accent/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/mysql.png" alt="MySQL" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-accent transition-colors">MySQL</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-accent/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/sqlserver.png" alt="SQL Server" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-accent transition-colors">SQL Server</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-accent/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/sqlite.png" alt="SQLite" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-accent transition-colors">SQLite</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-accent/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/firebase.png" alt="Firebase" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-accent transition-colors">Firebase</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-accent/10 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/oracle.png" alt="Oracle" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-accent transition-colors">Oracle</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 shadow-xl border border-base-200">
+            <div class="card-body">
+              <h3 class="card-title text-xl font-bold mb-4 border-b border-base-200 pb-2">Other Languages</h3>
+              <div class="flex flex-wrap gap-4 lg:gap-6 justify-center sm:justify-start">
+                
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-base-300 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/c.png" alt="C++" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-base-content transition-colors">C++</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-base-300 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/csharp.png" alt="C#" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-base-content transition-colors">C#</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-base-300 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/java.png" alt="Java" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-base-content transition-colors">Java</span>
+                </div>
+
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-base-300 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/python.png" alt="Python" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-base-content transition-colors">Python</span>
+                </div>
+                
+                <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                  <div class="w-16 h-16 bg-base-200 rounded-2xl flex items-center justify-center p-3 group-hover:bg-base-300 group-hover:scale-110 transition-all duration-300">
+                    <img src="src/images/vb.png" alt="Visual Basic" class="w-full h-full object-contain drop-shadow-sm"/>
+                  </div>
+                  <span class="text-xs font-semibold text-base-content/70 group-hover:text-base-content transition-colors">Visual Basic</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact-section" class="bg-neutral text-neutral-content flex justify-center py-12 px-4">
+      <div class="footer container w-full max-w-7xl flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
+        
+        <aside class="flex flex-col items-center md:items-start text-center md:text-left">
+          <span class="text-2xl font-extrabold tracking-tighter mb-2">GerrySatriaH</span>
+          <p class="text-base opacity-80 max-w-xs">
+            Back End & Mobile Developer Enthusiast.
+            <br/>Building digital experiences with passion.
+          </p>
+          <p class="mt-6 text-sm opacity-60">Copyright © 2026 - All rights reserved</p>
+        </aside> 
+        
+        <nav class="flex flex-col items-center md:items-end text-center md:text-right">
+          <h6 class="text-lg font-bold mb-4 uppercase tracking-wider opacity-80">Get in Touch</h6> 
+          
+          <a href="mailto:gerrysatria10@gmail.com" class="flex items-center gap-3 mb-3 hover:text-primary transition-colors group">
+            <box-icon name='envelope' color='currentColor' class="group-hover:scale-110 transition-transform duration-300"></box-icon>
+            <span class="text-lg font-medium">gerrysatria10@gmail.com</span>
+          </a>
+          
+          <a href="https://wa.me/6285156309401" target="_blank" class="flex items-center gap-3 hover:text-primary transition-colors group">
+            <box-icon name='whatsapp' type='logo' color='currentColor' class="group-hover:scale-110 transition-transform duration-300"></box-icon>
+            <span class="text-lg font-medium">0851 5630 9401</span>
+          </a>
+        </nav>
+        
+      </div>
+    </footer>
+  </body>
+</html>
